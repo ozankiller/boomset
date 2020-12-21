@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Read Event</title>
+</head>
+<body>
+<h1>{{ object.name }}</h1>
+<p>Event Start Date: {{ object.start_date|date }}</p>
+<p>Event End Date: {{ object.end_date|date }}</p>
+<p>Event Timezone: UTC +{{ object.timezone }}</p>
+</body>
+</html>
